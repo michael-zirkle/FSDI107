@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FSDI 106</title>
+
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <h1>Hello from HTML</h1>
+
+    <div>
+        <label id="lblTodo">Do What?</label>
+        <input id="txtTodo" type="text">
+        <label>Priority:</label>
+        <select id="selPriority">
+            <option value="P1">Desired</option>
+            <option value="P2">Minor</option>
+            <option value="P3">Major</option>
+            <option value="P4">Urgent</option>
+            
+        </select>
+        <button class="btn btn-md btn-primary" id="btnSave">Save Todo</button>
+    </div>
+    <br>
+    <h3> To Do List</h3>
+    <div>
+        <ul id="todoList" class="list-group">
+
+        </ul>
+
+
+    </div>
+    <br>
+    <h3> Done Task</h3>
+    <div>
+        <ul id="doneList" class="list-group">
+
+        </ul>
+
+
+    </div>
+</div>
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/script.js"></script>
+    
+
+</body>
+</html>

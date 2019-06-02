@@ -1,0 +1,14 @@
+h1 {
+    color: whitesmoke;
+    
+}
+
+.error { border:1px solid red;}
+
+.btn-done {
+    float: right;
+
+}
+.done-item{
+    text-decoration: line-through;
+}
